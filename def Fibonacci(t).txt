@@ -1,0 +1,7 @@
+def Fibonacci(t):
+	if t==0 or t==1:
+		return 1
+else:
+	Fibonacci(t-2)+Fibonacci(t-1)
+
+print(Fibonacci(60))
